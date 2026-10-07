@@ -1,0 +1,254 @@
+{
+  "project_title": "Rory Attwell — Music Producer & Composer Portfolio",
+  "theme_strategy": {
+    "style": "Light Editorial Magazine & Film Score Aesthetic",
+    "vibe": "Off-white tactile paper, high-contrast serif typography, analog studio craft meets cinematic precision",
+    "base_background": "#FBF9F5",
+    "card_background": "#F3EFE6",
+    "text_primary": "#1A1918",
+    "text_secondary": "#5C5852",
+    "accent_primary": "#8C3B2B",
+    "accent_secondary": "#2C3E35",
+    "border_color": "#E5DEC9"
+  },
+  "typography": {
+    "font_pairing": {
+      "headline_display": "'Playfair Display', 'Cormorant Garamond', Georgia, serif",
+      "subheadings_labels": "'IBM Plex Mono', 'JetBrains Mono', monospace",
+      "body": "'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif"
+    },
+    "hierarchy": {
+      "h1": "text-4xl sm:text-6xl lg:text-7xl font-serif tracking-tight leading-[1.05] text-[#1A1918]",
+      "h2": "text-2xl sm:text-4xl lg:text-5xl font-serif tracking-tight leading-tight text-[#1A1918]",
+      "h3": "text-xl sm:text-2xl font-serif text-[#1A1918]",
+      "overline_label": "text-xs uppercase tracking-[0.25em] font-mono font-medium text-[#8C3B2B]",
+      "body": "text-base sm:text-lg leading-relaxed text-[#5C5852]",
+      "caption": "text-xs font-mono text-[#7A756D]"
+    }
+  },
+  "colors": {
+    "background": "#FBF9F5",
+    "surface": "#F3EFE6",
+    "surface_hover": "#EAE3D5",
+    "foreground": "#1A1918",
+    "muted_foreground": "#5C5852",
+    "border": "#E2DAC8",
+    "accent_terracotta": "#8C3B2B",
+    "accent_forest": "#2C3E35",
+    "badge_bg": "#EFE8D8",
+    "footer_dark_bg": "#141312",
+    "footer_dark_text": "#F5F2EB"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1574517947730-55cb23e608c2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw3fHxhbmFsb2clMjByZWNvcmRpbmclMjBzdHVkaW8lMjBtaXhpbmclMjBkZXNrJTIwYXVkaW8lMjBjb25zb2xlJTIwc3R1ZGlvJTIwbWljJTIwdmludGFnZSUyMHN5bnRoJTIwYm9hdCUyMGhhcmJvdXJ8ZW58MHx8fHwxNzkxMzUzMjU4fDA&ixlib=rb-4.1.0&q=85",
+    "studio_console": "https://images.unsplash.com/photo-1574517947730-55cb23e608c2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHw3fHxhbmFsb2clMjByZWNvcmRpbmclMjBzdHVkaW8lMjBtaXhpbmclMjBkZXNrJTIwYXVkaW8lMjBjb25zb2xlJTIwc3R1ZGlvJTIwbWljJTIwdmludGFnZSUyMHN5bnRoJTIwYm9hdCUyMGhhcmJvdXJ8ZW58MHx8fHwxNzkxMzUzMjU4fDA&ixlib=rb-4.1.0&q=85",
+    "studio_rack": "https://images.unsplash.com/photo-1548502632-6b93092aad0b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHw0fHxhbmFsb2clMjByZWNvcmRpbmclMjBzdHVkaW8lMjBtaXhpbmclMjBkZXNrJTIwYXVkaW8lMjBjb25zb2xlJTIwc3R1ZGlvJTIwbWljJTIwdmludGFnZSUyMHN5bnRoJTIwYm9hdCUyMGhhcmJvdXJ8ZW58MHx8fHwxNzkxMzUzMjU4fDA&ixlib=rb-4.1.0&q=85",
+    "studio_workspace": "https://images.unsplash.com/photo-1627407660893-fe01f60d44c4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwyfHxhbmFsb2clMjByZWNvcmRpbmclMjBzdHVkaW8lMjBtaXhpbmclMjBkZXNrJTIwYXVkaW8lMjBjb25zb2xlJTIwc3R1ZGlvJTIwbWljJTIwdmludGFnZSUyMHN5bnRoJTIwYm9hdCUyMGhhcmJvdXJ8ZW58MHx8fHwxNzkxMzUzMjU4fDA&ixlib=rb-4.1.0&q=85",
+    "mixing_board_close": "https://images.pexels.com/photos/8132726/pexels-photo-8132726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "lightship_harbour_vibe": "https://images.unsplash.com/photo-1775673594265-48bce3753121?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHxxfHNlYXJjaHwxfHxyZWQlMjBzaGlwJTIwYm9hdCUyMGhhcmJvdXJ8ZW58MHx8fDE3OTEzNTMyNjR8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "content_manifest": {
+    "bio_intro": "Rory Attwell is a London-based music producer, film composer, and sound designer. Founder of Lightship95 — a renowned analog-focused recording studio permanently moored aboard a 1930s lightship in Trinity Buoy Wharf, London E14.",
+    "secondary_background": "Formerly of influential UK band Test Icicles; released solo work under Warm Brains ('Old Volcanoes', 2011). Has produced, engineered, or mixed hundreds of records including work for The Vaccines, Palma Violets, Yuck, Veronica Falls, Male Bonding, and S.C.U.M.",
+    "credits_wall": [
+      {
+        "id": "body-of-water",
+        "title": "Body of Water",
+        "role": "Original Film Score & Composer",
+        "category": "Film Score",
+        "year": "2020",
+        "details": "Feature film score directed by Lucy Brydon. Atmospheric acoustic and electronic soundscapes.",
+        "link": "https://www.imdb.com/title/tt10901594/"
+      },
+      {
+        "id": "skin-will-tell-you",
+        "title": "The Skin Will Tell You",
+        "role": "Score, Sound Design & Mix",
+        "category": "Film Score",
+        "year": "2024",
+        "details": "Short film directed by Lucy Brydon. Official selection for SXSW London 2024.",
+        "badge": "SXSW London Selection",
+        "link": "https://sxswlondon.com"
+      },
+      {
+        "id": "how-to-talk-to-girls",
+        "title": "How to Talk to Girls at Parties",
+        "role": "Movie OST / Soundtrack Producer",
+        "category": "Film Score",
+        "year": "2017",
+        "details": "A24 Feature Film OST dir. John Cameron Mitchell, starring Elle Fanning and Nicole Kidman.",
+        "link": "https://a24films.com"
+      },
+      {
+        "id": "end-of-fucking-world",
+        "title": "The End of the F***ing World",
+        "role": "Music Composition (Original Channel 4 Pilot)",
+        "category": "Film & TV",
+        "year": "2017",
+        "details": "Original score and composition for the BAFTA-winning Channel 4 / Netflix series pilot.",
+        "link": "https://www.channel4.com"
+      },
+      {
+        "id": "palma-violets-180",
+        "title": "Palma Violets — '180'",
+        "role": "Album Producer",
+        "category": "Record Production",
+        "year": "2013",
+        "details": "Debut LP on Rough Trade Records. Debuted at UK #11. Featured NME Track of the Year ('Best of Friends').",
+        "badge": "UK #11 Debut LP & NME Track of Year",
+        "link": "https://roughtraderecords.com"
+      },
+      {
+        "id": "nike-bobby-kasanga",
+        "title": "Bobby Kasanga x Nike Documentary",
+        "role": "Full Sound Mix & VO Recording",
+        "category": "Sound Design & Mix",
+        "year": "2023",
+        "details": "Documentary short spotlighting Hackwick City FC founder Bobby Kasanga in collaboration with Nike.",
+        "link": "https://www.nike.com"
+      },
+      {
+        "id": "asos-model-mastermind",
+        "title": "ASOS Model Mastermind",
+        "role": "Sound Design & Mix",
+        "category": "Commercial & Fashion",
+        "year": "2022",
+        "details": "Dynamic commercial series sound mix and audio branding for ASOS campaign.",
+        "link": "https://www.asos.com"
+      },
+      {
+        "id": "guinness-artist-journey",
+        "title": "Guinness — 'The Artist's Journey'",
+        "role": "Soundtrack Production & Mix",
+        "category": "Commercial & Fashion",
+        "year": "2021",
+        "details": "Cinematic commercial campaign soundtrack mixing for Guinness.",
+        "link": "https://www.guinness.com"
+      },
+      {
+        "id": "matches-claire-barrow",
+        "title": "Matches Fashion x Claire Barrow",
+        "role": "Sound Design Promo & Mix",
+        "category": "Commercial & Fashion",
+        "year": "2019",
+        "details": "Fashion promo sound design featuring custom track creation by Skinny Girl Diet.",
+        "link": "https://www.matchesfashion.com"
+      },
+      {
+        "id": "tom-vek-sherman",
+        "title": "Tom Vek — 'Sherman' Promo",
+        "role": "On-Set Sound Recordist & Sound Design",
+        "category": "Sound Design & Mix",
+        "year": "2014",
+        "details": "Location sound capture, foley, and full sound design for artist Tom Vek's promo.",
+        "link": "https://tomvek.tv"
+      },
+      {
+        "id": "so-young-lightship",
+        "title": "So Young Lightship Editions",
+        "role": "Live Engineering & Audio Mix",
+        "category": "Live Session & TV",
+        "year": "2021",
+        "details": "Live performance TV series recorded and engineered aboard Lightship 95 for So Young Magazine.",
+        "link": "https://soyoungmagazine.com"
+      },
+      {
+        "id": "red-bull-bedroom-jam",
+        "title": "Red Bull Bedroom Jam",
+        "role": "Senior Live Broadcast Engineer",
+        "category": "Live Session & TV",
+        "year": "2012",
+        "details": "National live broadcast audio engineering and high-intensity live mixing across UK tour dates.",
+        "link": "https://www.redbull.com"
+      },
+      {
+        "id": "brattwell-recordings",
+        "title": "Brattwell Recordings / Lightship95",
+        "role": "Studio Owner & Senior Producer",
+        "category": "Record Production",
+        "year": "Ongoing",
+        "details": "Production, engineering, and mixing of hundreds of albums, EPs, and singles at Lightship95, London E14.",
+        "link": "https://instagram.com/roryattwell"
+      }
+    ],
+    "lightship_specs": {
+      "name": "Lightship 95 Studio",
+      "location": "Trinity Buoy Wharf, River Thames, London E14 0JY",
+      "features": [
+        "Custom analog tracking room suspended inside a 1930s steel lightship hull",
+        "Classic analog console & vintage outboard gear (Neve, Calrec, UREI, Tape Delay)",
+        "Spacious live drum tracking hall with natural river reflections & organic acoustic warmth",
+        "Panoramic views of the Thames and historic lighthouse peninsula"
+      ]
+    },
+    "contact": {
+      "email": "roryattwell@gmail.com",
+      "showreel_mailto": "mailto:roryattwell@gmail.com?subject=Showreel%20Request",
+      "instagram": "https://instagram.com/roryattwell",
+      "instagram_handle": "@roryattwell"
+    }
+  },
+  "layout_sections": [
+    {
+      "id": "navigation",
+      "type": "Header / Nav",
+      "style": "Sticky thin header with optical backdrop blur, monogram logo mark, anchor links ('Work', 'Lightship 95', 'About', 'Contact'), and quick 'Request Showreel' mailto button."
+    },
+    {
+      "id": "hero",
+      "type": "Editorial Hero",
+      "style": "Asymmetric editorial spread with staggered line-by-line masked text reveal ('RORY ATTWELL — MUSIC PRODUCER & FILM COMPOSER'), subtle floating studio photo card, sound wave micro-viz trigger, and direct quick links."
+    },
+    {
+      "id": "ticker",
+      "type": "Marquee Ribbon",
+      "style": "Ultra-slow editorial scrolling ribbon in warm low-contrast serif text: 'FILM SCORES • RECORD PRODUCTION • SOUND DESIGN • LIGHTSHIP 95 LONDON • SXSW SELECTION • ANALOG MIXING'."
+    },
+    {
+      "id": "statement",
+      "type": "Philosophy & Intro",
+      "style": "Large serif statement block highlighting scoring + sound design + Lightship95 setup. Interactive focus drawer to toggle producer/composer highlight stats."
+    },
+    {
+      "id": "credits_wall",
+      "type": "Interactive Combined Credits Wall",
+      "style": "Filterable credit list with category pills ('All', 'Film Score', 'Record Production', 'Sound Design & Mix', 'Live & TV'), search bar, expandable detail drawers, hover spotlight image previews, and direct outgoing links."
+    },
+    {
+      "id": "studio_feature",
+      "type": "Lightship 95 Spotlight",
+      "style": "Split-screen section featuring ship photography, custom spec drawer, Trinity Buoy Wharf coordinates, and analog equipment list highlight."
+    },
+    {
+      "id": "background_bio",
+      "type": "Editorial Archive / Bio",
+      "style": "Clean two-column historical section detailing Test Icicles history, Warm Brains solo LP, and notable production roster (The Vaccines, Yuck, Veronica Falls, Male Bonding)."
+    },
+    {
+      "id": "footer_contact",
+      "type": "High Impact Dark Contrast Footer",
+      "style": "Dark charcoal ground (#141312) contrast shift with large statement text 'Let's create the sound', prominent 'Request Showreel' action button, direct copyable email widget, and social links."
+    }
+  ],
+  "motion_and_interactions": {
+    "lenis_scrolling": "Smooth momentum scrolling feel using Lenis or Framer Motion scroll triggers.",
+    "hero_entrance": "Line-by-line y-slide + opacity mask delay on page load for initial title.",
+    "credits_filter": "Layout animations using Framer Motion layout prop when filtering credit categories.",
+    "hover_effects": "Image zoom + border glow micro-interactions on work cards and mailto triggers.",
+    "copy_toast": "Sonner toast notification on copying email address to clipboard."
+  },
+  "instructions_to_main_agent": [
+    "Build the complete single-page portfolio in `/app/frontend/src/App.js` or component modules imported into `App.js`.",
+    "DO NOT use raw transparent header or generic blue gradients. Stick to the Warm Bone (#FBF9F5) paper editorial look.",
+    "Include all user explicit details, specifically: 'The Skin Will Tell You' SXSW London short film score/sound design, Palma Violets #11 debut LP, Body of Water, How to Talk to Girls at Parties, The End of the F***ing World, and Lightship95 studio.",
+    "Implement Sonner toast for interactive feedback when clicking 'Copy Email' or 'Request Showreel'.",
+    "Add explicit data-testid attributes to key buttons, nav links, filters, and credit items for automated test verification.",
+    "Ensure total responsiveness from 320px mobile up to 4K desktop screens."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Never use generic centered layouts or plain Bootstrap columns.",
+    "Use generous padding (py-16 md:py-28) between sections for luxurious editorial breathing room.",
+    "All interactive elements must have visible focus/hover states and proper data-testid attributes.",
+    "Use Lucide icons for high quality iconography."
+  ]
+}
