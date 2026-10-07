@@ -106,18 +106,10 @@ export default function About() {
                         ))}
                     </motion.p>
 
-                    <motion.p
-                        {...rise}
-                        transition={{ duration: 0.8, ease: EASE, delay: 0.32 }}
-                        className="mt-12 font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:text-[11px]"
-                        data-testid="about-covers-label"
-                    >
-                        Records from the playlist — tap through on Spotify
-                    </motion.p>
                     <motion.div
                         {...rise}
                         transition={{ duration: 0.8, ease: EASE, delay: 0.38 }}
-                        className="mt-5 grid grid-cols-4 gap-3 md:gap-4"
+                        className="mt-8 grid grid-cols-4 gap-3 md:gap-4"
                         data-testid="about-covers-grid"
                     >
                         {COVERS.map((c) => (
