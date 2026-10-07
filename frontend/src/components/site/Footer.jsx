@@ -24,7 +24,7 @@ export default function Footer() {
                     Get in touch
                 </p>
                 <h2 className="mt-6 font-display text-5xl leading-[1.02] tracking-tight md:text-8xl">
-                    Let's create
+                    Let's shape
                     <br />
                     <em className="font-light italic">the sound</em>
                     <span className="text-terra">.</span>

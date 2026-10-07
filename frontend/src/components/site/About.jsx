@@ -8,11 +8,6 @@ const rise = {
     viewport: { once: true, amount: 0.15 },
 };
 
-const ARCHIVE = [
-    { name: "Test Icicles", note: "Formerly of the punk trio" },
-    { name: "Warm Brains", note: "Solo — 'Old Volcanoes', LP, 2011" },
-];
-
 const ROSTER = [
     "The Vaccines",
     "Yuck",
@@ -71,29 +66,10 @@ export default function About() {
                         the UK's independent scene.
                     </motion.p>
 
-                    <div className="mt-12 border-t border-line">
-                        {ARCHIVE.map((a, i) => (
-                            <motion.div
-                                key={a.name}
-                                {...rise}
-                                transition={{ duration: 0.7, ease: EASE, delay: i * 0.1 }}
-                                className="group flex items-baseline justify-between gap-6 border-b border-line py-5 md:py-6"
-                                data-testid={`about-archive-${i}`}
-                            >
-                                <span className="font-display text-2xl italic transition-colors duration-300 group-hover:text-terra md:text-3xl">
-                                    {a.name}
-                                </span>
-                                <span className="text-right font-mono2 text-[10px] uppercase tracking-[0.16em] text-ink-muted md:text-[11px]">
-                                    {a.note}
-                                </span>
-                            </motion.div>
-                        ))}
-                    </div>
-
                     <motion.p
                         {...rise}
                         transition={{ duration: 0.8, ease: EASE, delay: 0.2 }}
-                        className="mt-10 font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:text-[11px]"
+                        className="mt-12 font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:text-[11px]"
                     >
                         Production, engineering &amp; mixing credits include
                     </motion.p>

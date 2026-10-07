@@ -1,6 +1,5 @@
 import Nav from "@/components/site/Nav";
 import Hero from "@/components/site/Hero";
-import Marquee from "@/components/site/Marquee";
 import Statement from "@/components/site/Statement";
 import Credits from "@/components/site/Credits";
 import About from "@/components/site/About";
@@ -13,7 +12,6 @@ export default function Home() {
             <Nav />
             <main>
                 <Hero />
-                <Marquee />
                 <Statement />
                 <Credits />
                 <About />

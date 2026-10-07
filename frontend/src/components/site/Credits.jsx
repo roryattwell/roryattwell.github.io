@@ -162,10 +162,6 @@ export default function Credits() {
                         })}
                     </AnimatePresence>
                 </div>
-
-                <p className="mt-8 font-mono2 text-[10px] uppercase tracking-[0.2em] text-ink-muted md:text-[11px]">
-                    {rows.length} of {CREDITS.length} projects
-                </p>
             </div>
 
             {/* desktop hover spotlight */}

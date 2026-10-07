@@ -33,7 +33,8 @@ All credits/roles/descriptions from roryattwell.com verbatim; SXSW London credit
 - Removed all Lightship95 emphasis per user ("I don't work there anymore"): deleted dedicated Studio section + nav link, rewrote statement/marquee/footer copy, trimmed credit descriptions. Credit titles remain factual.
 - Replaced all stock studio-equipment photos with the real project stills from roryattwell.com (downloaded to /app/frontend/public/images/, served locally). 
 - 2026-10-07 (later): "The Skin Will Tell You" still supplied by user via SXSW London page screenshot — cropped to clean film still, added to its credit row. Badge/hero updated to "SXSW London 2026" (dates 1-6 June 2026 confirmed on the festival page).
-- 2026-10-07 (later): Hero photo replaced with user-supplied studio shot (Rory with mug, preferred as main photo); previous hero shot reassigned to the Brattwell Recordings credit. Colour scheme warmed up per user feedback (referencing their "Music Therapy" logo): blush-tinted paper, rose accent, cobalt secondary, midnight-indigo footer; logo mark + favicon redrawn as pink circle with cobalt equalizer bars.
+- 2026-10-07 (later): Hero photo replaced with user-supplied studio shot (Rory with mug, preferred main photo); previous hero shot reassigned to Brattwell Recordings credit. Colour scheme warmed up per user feedback (referencing their "Music Therapy" logo): blush paper, rose accent, cobalt secondary, midnight-indigo footer; mark + favicon = pink circle with cobalt equalizer bars.
+- 2026-10-07 (later): Polish pass per user notes — removed editorial marquee ribbon, removed "13 of 13 projects" counter, removed Test Icicles/Warm Brains archive rows (kept the summary paragraph), footer headline changed to "Let's shape the sound."
 
 ## Done
 - 2026-10-07: Full one-page site built, verified desktop (1440) + mobile (390), no overflow, filters/expand/copy verified.
