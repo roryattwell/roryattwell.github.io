@@ -33,16 +33,7 @@ export default function Hero() {
             ref={ref}
             className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 pb-10 pt-28 md:px-10 md:pt-32"
         >
-            {/* tinted band behind name + photo + intro (desktop) */}
-            <div
-                aria-hidden="true"
-                className="absolute inset-x-0 bottom-0 top-20 hidden border-y border-line bg-surface md:block"
-            >
-                <div className="divider-pattern divider-bars absolute inset-x-0 top-5 opacity-25" />
-                <div className="divider-pattern divider-bars absolute inset-x-0 bottom-5 opacity-25" />
-            </div>
-
-            <div className="relative z-10 mx-auto grid w-full max-w-[1500px] items-start gap-12 lg:grid-cols-12 lg:gap-8">
+            <div className="mx-auto grid w-full max-w-[1500px] items-start gap-12 lg:grid-cols-12 lg:gap-8">
                 {/* type block */}
                 <div className="order-2 lg:order-1 lg:col-span-7">
                     <motion.p
@@ -78,7 +69,7 @@ export default function Hero() {
                         initial={{ opacity: 0, y: 16 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.9, ease: EASE, delay: 0.75 }}
-                        className="mt-7 text-base leading-relaxed text-ink-muted md:text-lg"
+                        className="mt-7 max-w-md text-base leading-relaxed text-ink-muted md:text-lg"
                     >
                         Music production &amp; composition for film,
                         television and records.
@@ -117,10 +108,8 @@ export default function Hero() {
                         className="mt-10 font-mono2 text-[10px] uppercase tracking-[0.2em] text-ink-muted md:text-[11px]"
                         data-testid="hero-latest"
                     >
-                        Latest — “The Skin Will Tell You” ·{" "}
-                        <span className="whitespace-nowrap">
-                            Official Selection, SXSW London 2026
-                        </span>
+                        Latest — “The Skin Will Tell You” · Official Selection,
+                        SXSW London 2026
                     </motion.p>
                 </div>
 

@@ -47,7 +47,8 @@ All credits/roles/descriptions from roryattwell.com verbatim; SXSW London credit
 - 2026-10-07 (later): About right column filled per user request — 8 real record covers pulled from the user's Spotify playlist "A Few Of The Things I've Produced" (Big Deal, Palma Violets, Wesley Gonzalez, H. Grimace, Veronica Falls, Wylderness, TRAAMS, The Vaccines), downloaded to /app/frontend/public/images/covers/. Colour on hover, each links to the playlist.
 - 2026-10-07 (later): PROM cover swapped for The Vaccines "Norgaard" single at user request (user supplied the single's actual artwork — lavender cover, used directly after flattening/cropping); covers now display in full colour (grayscale filter removed).
 - 2026-10-07 (later): Hero experiments (full-width single-line header, then full-height split poster) both rejected by user — REVERTED to the pre-"awkward" state exactly: two-column, stacked name with desktop offset, landscape photo (max-w-xl) top-aligned with lettering; mobile untouched (user called it perfect). No further hero changes unless requested.
-- 2026-10-07 (later): Hero revert (kept) + cohesion pass — desktop hero now sits on a full-bleed blush band (border-y + faint eq-bar pattern strips at its top/bottom edges, desktop only, mobile untouched); intro line no longer width-capped (one line on desktop); SXSW "Latest" line protected from mid-phrase wraps with a nowrap chunk.
+- 2026-10-07 (later): Blush band + pattern experiment in hero rejected by user ("looks nuts") — reverted to the plain two-column hero; hero is now frozen at this state pending explicit direction.
+- 2026-10-07 (later): One-line text attempt (sub + SXSW line, nowrap chunk) was part of the rejected band experiment — also reverted.
 
 ## Done
 - 2026-10-07: Full one-page site built, verified desktop (1440) + mobile (390), no overflow, filters/expand/copy verified.
