@@ -134,7 +134,7 @@ export default function About() {
                                     src={c.file}
                                     alt={`${c.artist} — ${c.title}`}
                                     loading="lazy"
-                                    className="aspect-square w-full object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                                    className="aspect-square w-full object-cover transition-all duration-500 group-hover:scale-105"
                                 />
                             </a>
                         ))}

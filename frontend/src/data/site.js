@@ -16,7 +16,7 @@ export const COVERS = [
     { n: 5, artist: "Veronica Falls", title: "Teenage", file: "/images/covers/cover5.jpg" },
     { n: 6, artist: "Wylderness", title: "Peripheral Vision", file: "/images/covers/cover6.jpg" },
     { n: 7, artist: "TRAAMS", title: "Flowers", file: "/images/covers/cover7.jpg" },
-    { n: 8, artist: "PROM", title: "I'll Teach You", file: "/images/covers/cover8.jpg" },
+    { n: 8, artist: "The Vaccines", title: "Norgaard", file: "/images/covers/cover8.jpg" },
 ];
 
 const creditImg = (name) => `/images/${name}.jpg`;
