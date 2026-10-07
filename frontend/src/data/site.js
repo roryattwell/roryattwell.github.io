@@ -27,7 +27,8 @@ export const CREDITS = [
         role: "Score, Sound Design & Mix",
         category: "Film & TV",
         desc: "Short film directed by Lucy Brydon. Official selection for SXSW London.",
-        badge: "Official Selection — SXSW London",
+        badge: "Official Selection — SXSW London 2026",
+        img: creditImg("skin-will-tell-you"),
     },
     {
         id: "body-of-water",

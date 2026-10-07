@@ -31,7 +31,8 @@ All credits/roles/descriptions from roryattwell.com verbatim; SXSW London credit
 
 ## Revisions (user feedback, 2026-10-07)
 - Removed all Lightship95 emphasis per user ("I don't work there anymore"): deleted dedicated Studio section + nav link, rewrote statement/marquee/footer copy, trimmed credit descriptions. Credit titles remain factual.
-- Replaced all stock studio-equipment photos with the real project stills from roryattwell.com (downloaded to /app/frontend/public/images/, served locally). "The Skin Will Tell You" has no still yet — row expands without image; awaiting user asset.
+- Replaced all stock studio-equipment photos with the real project stills from roryattwell.com (downloaded to /app/frontend/public/images/, served locally). 
+- 2026-10-07 (later): "The Skin Will Tell You" still supplied by user via SXSW London page screenshot — cropped to clean film still, added to its credit row. Badge/hero updated to "SXSW London 2026" (dates 1-6 June 2026 confirmed on the festival page).
 
 ## Done
 - 2026-10-07: Full one-page site built, verified desktop (1440) + mobile (390), no overflow, filters/expand/copy verified.
