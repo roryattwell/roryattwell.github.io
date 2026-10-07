@@ -35,6 +35,7 @@ All credits/roles/descriptions from roryattwell.com verbatim; SXSW London credit
 - 2026-10-07 (later): "The Skin Will Tell You" still supplied by user via SXSW London page screenshot — cropped to clean film still, added to its credit row. Badge/hero updated to "SXSW London 2026" (dates 1-6 June 2026 confirmed on the festival page).
 - 2026-10-07 (later): Hero photo replaced with user-supplied studio shot (Rory with mug, preferred main photo); previous hero shot reassigned to Brattwell Recordings credit. Colour scheme warmed up per user feedback (referencing their "Music Therapy" logo): blush paper, rose accent, cobalt secondary, midnight-indigo footer; mark + favicon = pink circle with cobalt equalizer bars.
 - 2026-10-07 (later): Polish pass per user notes — removed editorial marquee ribbon, removed "13 of 13 projects" counter, removed Test Icicles/Warm Brains archive rows (kept the summary paragraph), footer headline changed to "Let's shape the sound."
+- 2026-10-07 (later): About spread rework into a fuller two-column editorial (approved paragraph + Spotify "On the stereo" playlist card on the left; large archive image with caption + roster list on the right). User Spotify playlist "A Few Of The Things I've Produced" linked from About card + footer (clean URL, tracking params stripped).
 
 ## Done
 - 2026-10-07: Full one-page site built, verified desktop (1440) + mobile (390), no overflow, filters/expand/copy verified.

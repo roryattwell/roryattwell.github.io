@@ -4,6 +4,9 @@ export const SHOWREEL_MAILTO =
 export const INSTAGRAM = "https://instagram.com/roryattwell";
 export const INSTAGRAM_HANDLE = "@roryattwell";
 export const IMDB = "https://www.imdb.com/name/nm9887619/";
+export const SPOTIFY_PLAYLIST =
+    "https://open.spotify.com/playlist/0EOwNeOI1e9bJCYOP2v0OY";
+export const SPOTIFY_PLAYLIST_TITLE = "A Few Of The Things I've Produced";
 
 const creditImg = (name) => `/images/${name}.jpg`;
 

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { IMAGES } from "@/data/site";
+import { ArrowUpRight, AudioLines } from "lucide-react";
+import { IMAGES, SPOTIFY_PLAYLIST, SPOTIFY_PLAYLIST_TITLE } from "@/data/site";
 
 const EASE = [0.16, 1, 0.3, 1];
 const rise = {
@@ -38,25 +39,10 @@ export default function About() {
                             the desk
                         </em>
                     </motion.h2>
-                    <motion.div
-                        {...rise}
-                        transition={{ duration: 0.9, ease: EASE, delay: 0.2 }}
-                        className="mt-10 hidden max-w-[240px] md:block"
-                    >
-                        <img
-                            src={IMAGES.about}
-                            alt="Archive — live session"
-                            loading="lazy"
-                            className="aspect-[3/4] w-full border border-line object-cover grayscale"
-                        />
-                    </motion.div>
-                </div>
-
-                <div className="md:col-span-8">
                     <motion.p
                         {...rise}
-                        transition={{ duration: 0.9, ease: EASE, delay: 0.1 }}
-                        className="max-w-2xl text-base leading-relaxed text-ink-muted md:text-lg"
+                        transition={{ duration: 0.9, ease: EASE, delay: 0.2 }}
+                        className="mt-8 max-w-md text-base leading-relaxed text-ink-muted md:text-lg"
                         data-testid="about-text"
                     >
                         Rory began in bands — formerly of Test Icicles, he
@@ -65,6 +51,54 @@ export default function About() {
                         mixed hundreds of records, working with artists across
                         the UK's independent scene.
                     </motion.p>
+
+                    <motion.a
+                        {...rise}
+                        transition={{ duration: 0.9, ease: EASE, delay: 0.28 }}
+                        href={SPOTIFY_PLAYLIST}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-testid="about-spotify-link"
+                        className="group mt-10 flex items-center justify-between gap-4 border border-line bg-surface p-5 transition-colors duration-300 hover:border-terra hover:bg-surface-hover md:p-6"
+                    >
+                        <span className="flex items-center gap-4">
+                            <AudioLines
+                                className="h-6 w-6 shrink-0 text-terra"
+                                aria-hidden="true"
+                            />
+                            <span>
+                                <span className="block font-mono2 text-[10px] uppercase tracking-[0.2em] text-ink-muted">
+                                    On the stereo — Spotify
+                                </span>
+                                <span className="mt-1.5 block font-display text-lg italic leading-tight md:text-xl">
+                                    {SPOTIFY_PLAYLIST_TITLE}
+                                </span>
+                            </span>
+                        </span>
+                        <ArrowUpRight
+                            className="h-5 w-5 shrink-0 text-ink-muted transition-all duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-terra"
+                            aria-hidden="true"
+                        />
+                    </motion.a>
+                </div>
+
+                <div className="md:col-span-8">
+                    <motion.div
+                        {...rise}
+                        transition={{ duration: 0.9, ease: EASE, delay: 0.15 }}
+                        className="relative overflow-hidden border border-line"
+                        data-testid="about-image"
+                    >
+                        <img
+                            src={IMAGES.about}
+                            alt="Archive — So Young sessions"
+                            loading="lazy"
+                            className="aspect-[10/7] w-full object-cover grayscale"
+                        />
+                        <div className="absolute bottom-4 left-4 bg-dark px-3 py-1.5 font-mono2 text-[9px] uppercase tracking-[0.2em] text-cream md:text-[10px]">
+                            Archive — So Young sessions
+                        </div>
+                    </motion.div>
 
                     <motion.p
                         {...rise}
@@ -76,7 +110,7 @@ export default function About() {
                     <motion.p
                         {...rise}
                         transition={{ duration: 0.8, ease: EASE, delay: 0.28 }}
-                        className="mt-4 max-w-2xl font-display text-2xl italic leading-snug md:text-3xl"
+                        className="mt-5 font-display text-3xl italic leading-snug md:text-4xl"
                         data-testid="about-roster"
                     >
                         {ROSTER.map((r, i) => (
