@@ -33,7 +33,7 @@ export default function Hero() {
             ref={ref}
             className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 pb-10 pt-28 md:px-10 md:pt-32"
         >
-            <div className="mx-auto grid w-full max-w-[1500px] items-center gap-12 lg:grid-cols-12 lg:gap-8">
+            <div className="mx-auto grid w-full max-w-[1500px] items-start gap-12 lg:grid-cols-12 lg:gap-8">
                 {/* type block */}
                 <div className="order-2 lg:order-1 lg:col-span-7">
                     <motion.p
@@ -123,7 +123,7 @@ export default function Hero() {
                 >
                     <motion.div
                         style={{ y: imgY }}
-                        className="relative mx-auto aspect-[3/2] w-full max-w-xl -rotate-1 overflow-hidden border border-line bg-surface p-2"
+                        className="relative aspect-[3/2] w-full -rotate-1 overflow-hidden border border-line bg-surface p-2 lg:mt-14"
                     >
                         <img
                             src={IMAGES.hero}
