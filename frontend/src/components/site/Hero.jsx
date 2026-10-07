@@ -6,10 +6,10 @@ import { scrollToId } from "@/lib/scroll";
 
 const EASE = [0.16, 1, 0.3, 1];
 
-const MaskedLine = ({ children, delay = 0, className = "" }) => (
-    <span className="block overflow-hidden">
+const MaskedWord = ({ children, delay = 0, className = "" }) => (
+    <span className="inline-block overflow-hidden align-bottom">
         <motion.span
-            className={`block ${className}`}
+            className={`inline-block ${className}`}
             initial={{ y: "115%" }}
             animate={{ y: "0%" }}
             transition={{ duration: 1.1, ease: EASE, delay }}
@@ -25,51 +25,57 @@ export default function Hero() {
         target: ref,
         offset: ["start start", "end start"],
     });
-    const imgY = useTransform(scrollYProgress, [0, 1], [0, -70]);
+    const imgY = useTransform(scrollYProgress, [0, 1], [0, -60]);
 
     return (
         <section
             id="top"
             ref={ref}
-            className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 pb-10 pt-28 md:px-10 md:pt-32"
+            className="relative flex min-h-screen flex-col justify-end overflow-hidden px-6 pb-10 pt-28 md:px-10 md:pt-32"
         >
-            <div className="mx-auto grid w-full max-w-[1500px] items-start gap-12 lg:grid-cols-12 lg:gap-8">
-                {/* type block */}
-                <div className="order-2 lg:order-1 lg:col-span-7">
-                    <motion.p
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ duration: 0.8, delay: 0.15 }}
-                        className="mb-6 flex items-center gap-3 font-mono2 text-[11px] uppercase tracking-[0.28em] text-terra md:text-xs"
-                        data-testid="hero-overline"
+            {/* header band: overline + name across the full width */}
+            <div className="mx-auto w-full max-w-[1500px]">
+                <motion.p
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.8, delay: 0.15 }}
+                    className="flex items-center gap-3 font-mono2 text-[11px] uppercase tracking-[0.28em] text-terra md:text-xs"
+                    data-testid="hero-overline"
+                >
+                    <span className="flex h-3 items-end gap-[3px]" aria-hidden="true">
+                        {[0, 1, 2, 3].map((i) => (
+                            <span
+                                key={i}
+                                className={`eq-bar w-[3px] rounded-sm ${i === 1 ? "bg-forest" : "bg-terra"}`}
+                                style={{
+                                    height: "12px",
+                                    animationDelay: `${i * 0.17}s`,
+                                }}
+                            />
+                        ))}
+                    </span>
+                    Producer · Composer · Sound
+                </motion.p>
+
+                <h1 className="mt-6 font-display text-[clamp(2.6rem,10.5vw,10rem)] leading-[0.95] tracking-[-0.02em]">
+                    <MaskedWord delay={0.25}>Rory&nbsp;</MaskedWord>
+                    <MaskedWord
+                        delay={0.4}
+                        className="font-light italic text-forest"
                     >
-                        <span className="flex h-3 items-end gap-[3px]" aria-hidden="true">
-                            {[0, 1, 2, 3].map((i) => (
-                                <span
-                                    key={i}
-                                    className={`eq-bar w-[3px] rounded-sm ${i === 1 ? "bg-forest" : "bg-terra"}`}
-                                    style={{
-                                        height: "12px",
-                                        animationDelay: `${i * 0.17}s`,
-                                    }}
-                                />
-                            ))}
-                        </span>
-                        Producer · Composer · Sound
-                    </motion.p>
+                        Attwell
+                    </MaskedWord>
+                </h1>
+            </div>
 
-                    <h1 className="font-display text-[clamp(4rem,13vw,11.5rem)] leading-[0.92] tracking-[-0.02em]">
-                        <MaskedLine delay={0.25}>Rory</MaskedLine>
-                        <MaskedLine delay={0.38} className="italic font-light text-forest sm:ml-12 md:ml-20 lg:ml-28">
-                            Attwell
-                        </MaskedLine>
-                    </h1>
-
+            {/* bottom row: intro + actions left, photo right, sharing a baseline */}
+            <div className="mx-auto mt-10 grid w-full max-w-[1500px] items-end gap-10 md:mt-14 md:grid-cols-12 md:gap-8">
+                <div className="order-2 md:order-1 md:col-span-7">
                     <motion.p
                         initial={{ opacity: 0, y: 16 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.9, ease: EASE, delay: 0.75 }}
-                        className="mt-7 max-w-md text-base leading-relaxed text-ink-muted md:text-lg"
+                        className="max-w-md text-base leading-relaxed text-ink-muted md:text-lg"
                     >
                         Music production &amp; composition for film,
                         television and records.
@@ -79,7 +85,7 @@ export default function Hero() {
                         initial={{ opacity: 0, y: 16 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.9, ease: EASE, delay: 0.9 }}
-                        className="mt-9 flex flex-wrap items-center gap-4"
+                        className="mt-8 flex flex-wrap items-center gap-4"
                     >
                         <a
                             href={SHOWREEL_MAILTO}
@@ -100,30 +106,18 @@ export default function Hero() {
                             />
                         </button>
                     </motion.div>
-
-                    <motion.p
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ duration: 1, delay: 1.15 }}
-                        className="mt-10 font-mono2 text-[10px] uppercase tracking-[0.2em] text-ink-muted md:text-[11px]"
-                        data-testid="hero-latest"
-                    >
-                        Latest — “The Skin Will Tell You” · Official Selection,
-                        SXSW London 2026
-                    </motion.p>
                 </div>
 
-                {/* image block */}
                 <motion.div
                     initial={{ clipPath: "inset(0 0 100% 0)", opacity: 0.4 }}
                     animate={{ clipPath: "inset(0 0 0% 0)", opacity: 1 }}
                     transition={{ duration: 1.3, ease: EASE, delay: 0.5 }}
-                    className="relative order-1 lg:order-2 lg:col-span-5"
+                    className="order-1 md:order-2 md:col-span-5"
                     data-testid="hero-image-card"
                 >
                     <motion.div
                         style={{ y: imgY }}
-                        className="relative aspect-[3/2] w-full -rotate-1 overflow-hidden border border-line bg-surface p-2 lg:mt-14"
+                        className="relative aspect-[3/2] w-full overflow-hidden border border-line bg-surface p-2"
                     >
                         <img
                             src={IMAGES.hero}
@@ -135,6 +129,16 @@ export default function Hero() {
                             Fig. 01 — In the studio
                         </div>
                     </motion.div>
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 1, delay: 1.15 }}
+                        className="mt-4 text-right font-mono2 text-[10px] uppercase tracking-[0.2em] text-ink-muted md:text-[11px]"
+                        data-testid="hero-latest"
+                    >
+                        Latest — “The Skin Will Tell You” · Official Selection,
+                        SXSW London 2026
+                    </motion.p>
                 </motion.div>
             </div>
         </section>
