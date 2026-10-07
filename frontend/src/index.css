@@ -25,15 +25,15 @@
         --ring: 0 0% 3.9%;
         --radius: 0.5rem;
 
-        --paper: #fbf9f5;
-        --surface: #f3efe6;
-        --surface-hover: #eae3d5;
+        --paper: #fcf8f4;
+        --surface: #f8edeb;
+        --surface-hover: #f3e2de;
         --ink: #1a1918;
         --ink-muted: #5c5852;
-        --line: #e2dac8;
-        --terra: #8c3b2b;
-        --forest: #2c3e35;
-        --dark: #141312;
+        --line: #eddcd8;
+        --terra: #d9538c;
+        --forest: #2150dc;
+        --dark: #171438;
         --cream: #f5f2eb;
     }
 }

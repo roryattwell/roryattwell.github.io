@@ -125,7 +125,7 @@ export const CREDITS = [
         role: "Production",
         category: "Record Production",
         desc: "Production of 100s of albums, EPs & singles.",
-        img: creditImg("hero"),
+        img: creditImg("brattwell"),
     },
 ];
 

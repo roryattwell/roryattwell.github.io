@@ -5,10 +5,10 @@ const Mark = ({ className = "h-5 w-5" }) => (
         aria-hidden="true"
         focusable="false"
     >
-        <rect width="64" height="64" rx="14" fill="#141312" />
-        <rect x="13" y="28" width="9" height="22" fill="#F5F2EB" />
-        <rect x="27.5" y="14" width="9" height="36" fill="#8C3B2B" />
-        <rect x="42" y="22" width="9" height="28" fill="#F5F2EB" />
+        <circle cx="32" cy="32" r="32" fill="#F48FBB" />
+        <rect x="14" y="30" width="8" height="20" fill="#2150DC" />
+        <rect x="28" y="14" width="8" height="36" fill="#2150DC" />
+        <rect x="42" y="24" width="8" height="26" fill="#2150DC" />
     </svg>
 );
 

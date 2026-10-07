@@ -47,7 +47,7 @@ export default function Hero() {
                             {[0, 1, 2, 3].map((i) => (
                                 <span
                                     key={i}
-                                    className="eq-bar w-[3px] rounded-sm bg-terra"
+                                    className={`eq-bar w-[3px] rounded-sm ${i === 1 ? "bg-forest" : "bg-terra"}`}
                                     style={{
                                         height: "12px",
                                         animationDelay: `${i * 0.17}s`,
@@ -60,7 +60,7 @@ export default function Hero() {
 
                     <h1 className="font-display text-[clamp(4rem,13vw,11.5rem)] leading-[0.92] tracking-[-0.02em]">
                         <MaskedLine delay={0.25}>Rory</MaskedLine>
-                        <MaskedLine delay={0.38} className="italic font-light text-terra">
+                        <MaskedLine delay={0.38} className="italic font-light text-forest">
                             Attwell
                         </MaskedLine>
                     </h1>
@@ -123,7 +123,7 @@ export default function Hero() {
                 >
                     <motion.div
                         style={{ y: imgY }}
-                        className="relative mx-auto aspect-[4/5] w-full max-w-md -rotate-1 overflow-hidden border border-line bg-surface p-2"
+                        className="relative mx-auto aspect-[3/2] w-full max-w-xl -rotate-1 overflow-hidden border border-line bg-surface p-2"
                     >
                         <img
                             src={IMAGES.hero}
