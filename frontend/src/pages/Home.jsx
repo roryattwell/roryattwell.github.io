@@ -15,9 +15,9 @@ export default function Home() {
                 <Hero />
                 <Divider idx={1} variant="bars" />
                 <Statement />
-                <Divider idx={2} variant="waves" />
+                <Divider idx={2} variant="ethnic" />
                 <Credits />
-                <Divider idx={3} variant="ethnic" />
+                <Divider idx={3} variant="waves" />
                 <About />
                 <Divider idx={4} variant="swirls" />
             </main>
