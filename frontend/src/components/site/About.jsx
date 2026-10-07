@@ -109,8 +109,8 @@ export default function About() {
                     <motion.p
                         {...rise}
                         transition={{ duration: 0.8, ease: EASE, delay: 0.32 }}
-                        className="mt-12 hidden font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:mt-auto md:block md:text-[11px]"
-                        data-testid="about-covers-label"
+                        className="mt-12 hidden font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:mt-auto md:block md:pt-12 md:text-[11px]"
+                        data-testid="about-covers-label" 
                     >
                         A selection of records — tap through to listen
                     </motion.p>
