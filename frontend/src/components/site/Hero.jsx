@@ -72,7 +72,7 @@ export default function Hero() {
                         className="mt-7 max-w-md text-base leading-relaxed text-ink-muted md:text-lg"
                     >
                         Music production &amp; composition for film,
-                        television and records.
+                        television and&nbsp;records.
                     </motion.p>
 
                     <motion.div
