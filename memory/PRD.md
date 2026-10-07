@@ -42,7 +42,7 @@ All credits/roles/descriptions from roryattwell.com verbatim; SXSW London credit
 - 2026-10-07 (later): Hero overline trimmed to "Producer · Composer · Sound" (London removed); footer Spotify link removed — playlist stays linked only via the About "On the stereo" card.
 - 2026-10-07 (later): "London, UK" removed from the footer bottom bar (bar now: © year · Producer · Composer · Sound).
 - 2026-10-07 (later): About right column filled per user request — 8 real record covers pulled from the user's Spotify playlist "A Few Of The Things I've Produced" (Big Deal, Palma Violets, Wesley Gonzalez, H. Grimace, Veronica Falls, Wylderness, TRAAMS, The Vaccines), downloaded to /app/frontend/public/images/covers/. Colour on hover, each links to the playlist.
-- 2026-10-07 (later): PROM cover swapped for The Vaccines "Norgaard" single at user request; covers now display in full colour (grayscale filter removed).
+- 2026-10-07 (later): PROM cover swapped for The Vaccines "Norgaard" single at user request (user supplied the single's actual artwork — lavender cover, used directly after flattening/cropping); covers now display in full colour (grayscale filter removed).
 
 ## Done
 - 2026-10-07: Full one-page site built, verified desktop (1440) + mobile (390), no overflow, filters/expand/copy verified.
