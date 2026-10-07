@@ -13,13 +13,13 @@ export default function Home() {
             <Nav />
             <main>
                 <Hero />
-                <Divider idx={1} />
+                <Divider idx={1} variant="bars" />
                 <Statement />
-                <Divider idx={2} />
+                <Divider idx={2} variant="waves" />
                 <Credits />
-                <Divider idx={3} />
+                <Divider idx={3} variant="swirls" />
                 <About />
-                <Divider idx={4} />
+                <Divider idx={4} variant="ethnic" />
             </main>
             <Footer />
         </div>
