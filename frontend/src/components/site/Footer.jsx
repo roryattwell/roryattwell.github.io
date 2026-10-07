@@ -82,10 +82,6 @@ export default function Footer() {
 
                 <div className="mt-16 flex flex-col gap-3 border-t border-cream/15 pt-6 font-mono2 text-[9px] uppercase tracking-[0.2em] text-cream/40 md:flex-row md:items-center md:justify-between md:text-[10px]">
                     <span>© {new Date().getFullYear()} Rory Attwell</span>
-                    <span className="flex items-center gap-2">
-                        <Mark className="h-4 w-4" />
-                        London, UK
-                    </span>
                     <span>Producer · Composer · Sound</span>
                 </div>
             </div>
