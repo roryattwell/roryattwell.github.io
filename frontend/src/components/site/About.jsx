@@ -21,7 +21,7 @@ export default function About() {
     return (
         <section id="about" className="px-6 py-12 md:px-10 md:py-16">
             <div className="mx-auto grid max-w-[1500px] gap-12 md:grid-cols-12 md:gap-8">
-                <div className="md:col-span-4">
+                <div className="flex flex-col md:col-span-4">
                     <motion.p
                         {...rise}
                         transition={{ duration: 0.8, ease: EASE }}
@@ -42,7 +42,7 @@ export default function About() {
                     <motion.p
                         {...rise}
                         transition={{ duration: 0.9, ease: EASE, delay: 0.2 }}
-                        className="mt-8 max-w-md text-base leading-relaxed text-ink-muted md:text-lg"
+                        className="mt-8 max-w-md text-base leading-relaxed text-ink-muted md:mb-10 md:text-lg"
                         data-testid="about-text"
                     >
                         Rory began in bands — formerly of Test Icicles, he
@@ -59,7 +59,7 @@ export default function About() {
                         target="_blank"
                         rel="noopener noreferrer"
                         data-testid="about-spotify-link"
-                        className="group mt-10 flex items-center justify-between gap-4 border border-line bg-surface p-5 transition-colors duration-300 hover:border-terra hover:bg-surface-hover md:p-6"
+                        className="group mt-10 flex items-center justify-between gap-4 border border-line bg-surface p-5 transition-colors duration-300 hover:border-terra hover:bg-surface-hover md:mt-auto md:p-6"
                     >
                         <span className="flex items-center gap-4">
                             <AudioLines
@@ -82,11 +82,11 @@ export default function About() {
                     </motion.a>
                 </div>
 
-                <div className="flex flex-col justify-center md:col-span-7">
+                <div className="flex flex-col md:col-span-7">
                     <motion.p
                         {...rise}
                         transition={{ duration: 0.8, ease: EASE, delay: 0.2 }}
-                        className="font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:text-[11px]"
+                        className="font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:mb-10 md:text-[11px]"
                     >
                         Production, engineering &amp; mixing credits include
                     </motion.p>
@@ -109,7 +109,7 @@ export default function About() {
                     <motion.p
                         {...rise}
                         transition={{ duration: 0.8, ease: EASE, delay: 0.32 }}
-                        className="mt-12 hidden font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:block md:text-[11px]"
+                        className="mt-12 hidden font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:mt-auto md:block md:text-[11px]"
                         data-testid="about-covers-label"
                     >
                         A selection of records — tap through to listen
