@@ -31,7 +31,7 @@ export default function Hero() {
         <section
             id="top"
             ref={ref}
-            className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 pb-14 pt-28 md:px-10 md:pt-32"
+            className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 pb-10 pt-28 md:px-10 md:pt-32"
         >
             <div className="mx-auto grid w-full max-w-[1500px] items-center gap-12 lg:grid-cols-12 lg:gap-8">
                 {/* type block */}

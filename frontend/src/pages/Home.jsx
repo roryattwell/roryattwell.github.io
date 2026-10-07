@@ -1,4 +1,5 @@
 import Nav from "@/components/site/Nav";
+import Divider from "@/components/site/Divider";
 import Hero from "@/components/site/Hero";
 import Statement from "@/components/site/Statement";
 import Credits from "@/components/site/Credits";
@@ -12,9 +13,13 @@ export default function Home() {
             <Nav />
             <main>
                 <Hero />
+                <Divider idx={1} />
                 <Statement />
+                <Divider idx={2} />
                 <Credits />
+                <Divider idx={3} />
                 <About />
+                <Divider idx={4} />
             </main>
             <Footer />
         </div>

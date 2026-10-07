@@ -15,7 +15,7 @@ const FACETS = [
 
 export default function Statement() {
     return (
-        <section className="px-6 py-24 md:px-10 md:py-36">
+        <section className="px-6 py-12 md:px-10 md:py-16">
             <div className="mx-auto max-w-[1500px]">
                 <motion.p
                     {...rise}
@@ -39,7 +39,7 @@ export default function Statement() {
                     film, television and artists.
                 </motion.h2>
 
-                <div className="mt-16 grid gap-px overflow-hidden border border-line bg-line md:mt-24 md:grid-cols-3">
+                <div className="mt-12 grid gap-px overflow-hidden border border-line bg-line md:mt-16 md:grid-cols-3">
                     {FACETS.map((f, i) => (
                         <motion.div
                             key={f.n}

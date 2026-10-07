@@ -23,7 +23,7 @@ export default function Credits() {
     return (
         <section
             id="work"
-            className="px-6 py-24 md:px-10 md:py-36"
+            className="px-6 py-12 md:px-10 md:py-16"
             onMouseMove={(e) => {
                 mx.set(e.clientX + 28);
                 my.set(e.clientY - 130);
@@ -77,7 +77,7 @@ export default function Credits() {
                     </motion.div>
                 </div>
 
-                <div className="mt-14 border-b border-line md:mt-20">
+                <div className="mt-10 border-b border-line md:mt-14">
                     <AnimatePresence mode="popLayout">
                         {rows.map((c, i) => {
                             const open = openId === c.id;

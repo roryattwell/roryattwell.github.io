@@ -16,7 +16,7 @@ export default function Footer() {
     return (
         <footer
             id="contact"
-            className="bg-dark px-6 pb-10 pt-24 text-cream md:px-10 md:pt-36"
+            className="bg-dark px-6 pb-10 pt-16 text-cream md:px-10 md:pt-24"
             data-testid="footer-contact"
         >
             <div className="mx-auto max-w-[1500px]">

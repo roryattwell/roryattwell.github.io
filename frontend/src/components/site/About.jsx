@@ -19,7 +19,7 @@ const ROSTER = [
 
 export default function About() {
     return (
-        <section id="about" className="px-6 py-24 md:px-10 md:py-36">
+        <section id="about" className="px-6 py-12 md:px-10 md:py-16">
             <div className="mx-auto grid max-w-[1500px] gap-12 md:grid-cols-12 md:gap-8">
                 <div className="md:col-span-4">
                     <motion.p

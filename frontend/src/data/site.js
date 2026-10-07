@@ -38,7 +38,7 @@ export const CREDITS = [
         title: "Body of Water",
         role: "Original Film Score",
         category: "Film & TV",
-        desc: "Original score for the BBC Films / BFI feature film directed by Lucy Brydon.",
+        desc: "Original score for the BBC Films / BFI feature film.",
         img: creditImg("body-of-water"),
     },
     {
