@@ -41,6 +41,7 @@ All credits/roles/descriptions from roryattwell.com verbatim; SXSW London credit
 - 2026-10-07 (later): Pattern family per user request — each join has its own motif in the rose/cobalt palette; final order: eq-bars (hero→statement), folk block-print bold (statement→credits), wave ribbon light (credits→about), shell swirls bold last (about→footer). SVG tiles live in /app/frontend/src/assets/patterns/. Bold set = swirls + ethnic (32px, 0.62 opacity, chunky strokes); bars + waves stay light.
 - 2026-10-07 (later): Hero overline trimmed to "Producer · Composer · Sound" (London removed); footer Spotify link removed — playlist stays linked only via the About "On the stereo" card.
 - 2026-10-07 (later): "London, UK" removed from the footer bottom bar (bar now: © year · Producer · Composer · Sound).
+- 2026-10-07 (later): About right column filled per user request — 8 real record covers pulled from the user's Spotify playlist "A Few Of The Things I've Produced" (Big Deal, Palma Violets, Wesley Gonzalez, H. Grimace, Veronica Falls, Wylderness, TRAAMS, PROM), downloaded to /app/frontend/public/images/covers/. Grayscale by default, colour + zoom on hover, each links to the playlist.
 
 ## Done
 - 2026-10-07: Full one-page site built, verified desktop (1440) + mobile (390), no overflow, filters/expand/copy verified.

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, AudioLines } from "lucide-react";
-import { SPOTIFY_PLAYLIST, SPOTIFY_PLAYLIST_TITLE } from "@/data/site";
+import { COVERS, SPOTIFY_PLAYLIST, SPOTIFY_PLAYLIST_TITLE } from "@/data/site";
 
 const EASE = [0.16, 1, 0.3, 1];
 const rise = {
@@ -105,6 +105,40 @@ export default function About() {
                             </span>
                         ))}
                     </motion.p>
+
+                    <motion.p
+                        {...rise}
+                        transition={{ duration: 0.8, ease: EASE, delay: 0.32 }}
+                        className="mt-12 font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:text-[11px]"
+                        data-testid="about-covers-label"
+                    >
+                        Records from the playlist — tap through on Spotify
+                    </motion.p>
+                    <motion.div
+                        {...rise}
+                        transition={{ duration: 0.8, ease: EASE, delay: 0.38 }}
+                        className="mt-5 grid grid-cols-4 gap-3 md:gap-4"
+                        data-testid="about-covers-grid"
+                    >
+                        {COVERS.map((c) => (
+                            <a
+                                key={c.n}
+                                href={SPOTIFY_PLAYLIST}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title={`${c.artist} — ${c.title}`}
+                                data-testid={`about-cover-${c.n}`}
+                                className="group block overflow-hidden border border-line"
+                            >
+                                <img
+                                    src={c.file}
+                                    alt={`${c.artist} — ${c.title}`}
+                                    loading="lazy"
+                                    className="aspect-square w-full object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                                />
+                            </a>
+                        ))}
+                    </motion.div>
                 </div>
             </div>
         </section>

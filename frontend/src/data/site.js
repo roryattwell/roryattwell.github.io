@@ -8,6 +8,17 @@ export const SPOTIFY_PLAYLIST =
     "https://open.spotify.com/playlist/0EOwNeOI1e9bJCYOP2v0OY";
 export const SPOTIFY_PLAYLIST_TITLE = "A Few Of The Things I've Produced";
 
+export const COVERS = [
+    { n: 1, artist: "Big Deal", title: "Always Boys", file: "/images/covers/cover1.jpg" },
+    { n: 2, artist: "Palma Violets", title: "Best Of Friends", file: "/images/covers/cover2.jpg" },
+    { n: 3, artist: "Wesley Gonzalez", title: "Piece Of Mind", file: "/images/covers/cover3.jpg" },
+    { n: 4, artist: "H. Grimace", title: "Self Architect", file: "/images/covers/cover4.jpg" },
+    { n: 5, artist: "Veronica Falls", title: "Teenage", file: "/images/covers/cover5.jpg" },
+    { n: 6, artist: "Wylderness", title: "Peripheral Vision", file: "/images/covers/cover6.jpg" },
+    { n: 7, artist: "TRAAMS", title: "Flowers", file: "/images/covers/cover7.jpg" },
+    { n: 8, artist: "PROM", title: "I'll Teach You", file: "/images/covers/cover8.jpg" },
+];
+
 const creditImg = (name) => `/images/${name}.jpg`;
 
 export const IMAGES = {
