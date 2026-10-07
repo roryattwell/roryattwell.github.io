@@ -69,7 +69,7 @@ export default function Hero() {
                         initial={{ opacity: 0, y: 16 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.9, ease: EASE, delay: 0.75 }}
-                        className="mt-7 max-w-md text-base leading-relaxed text-ink-muted md:text-lg"
+                        className="mt-7 whitespace-normal text-base leading-relaxed text-ink-muted md:whitespace-nowrap md:text-[17px] xl:text-lg"
                     >
                         Music production &amp; composition for film,
                         television and&nbsp;records.
