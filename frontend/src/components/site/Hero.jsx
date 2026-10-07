@@ -62,7 +62,7 @@ export default function Hero() {
 
                             <h1 className="font-display text-[clamp(4rem,13vw,11.5rem)] leading-[0.92] tracking-[-0.02em] text-ink">
                                 <MaskedLine delay={0.25}>Rory</MaskedLine>
-                                <MaskedLine delay={0.38} className="pr-[0.08em] font-light italic text-forest sm:ml-12 md:ml-20 lg:ml-28">
+                                <MaskedLine delay={0.38} className="pr-[0.08em] font-light italic text-[#F48FBB] sm:ml-12 md:ml-20 lg:ml-28">
                                     Attwell
                                 </MaskedLine>
                             </h1>
