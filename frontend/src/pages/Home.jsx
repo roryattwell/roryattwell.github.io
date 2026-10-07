@@ -15,11 +15,11 @@ export default function Home() {
                 <Hero />
                 <Divider idx={1} variant="bars" />
                 <Statement />
-                <Divider idx={2} variant="waves" />
+                <Divider idx={2} variant="swirls" />
                 <Credits />
-                <Divider idx={3} variant="swirls" />
+                <Divider idx={3} variant="ethnic" />
                 <About />
-                <Divider idx={4} variant="ethnic" />
+                <Divider idx={4} variant="waves" />
             </main>
             <Footer />
         </div>

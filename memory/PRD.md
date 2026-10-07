@@ -38,7 +38,7 @@ All credits/roles/descriptions from roryattwell.com verbatim; SXSW London credit
 - 2026-10-07 (later): About spread rework into a fuller two-column editorial (approved paragraph + Spotify "On the stereo" playlist card on the left; large archive image with caption + roster list on the right). User Spotify playlist "A Few Of The Things I've Produced" linked from About card + footer (clean URL, tracking params stripped).
 - 2026-10-07 (later): User tweaks — Brattwell Recordings moved to credit #03; Body of Water description now credits BBC Films / BFI (Lucy Brydon name removed from this credit at user request); About archive image ("So Young sessions") removed at user request — roster column re-centred.
 - 2026-10-07 (later): Section-gap fix (user-reported with annotated screenshot) — section paddings reduced (py-24/36 → py-12/16, hero/footer trimmed) AND brand pattern strips placed at all four section joins, per user's "show me both" request.
-- 2026-10-07 (later): Pattern family per user request — each join now has its own motif in the rose/cobalt palette: eq-bars (hero→statement), wave ribbon (statement→credits), concentric shell swirls (credits→about), folk block-print strip (about→footer). SVG tiles live in /app/frontend/src/assets/patterns/.
+- 2026-10-07 (later): Pattern family per user request — each join now has its own motif in the rose/cobalt palette; final order after user tweak: eq-bars (hero→statement), shell swirls (statement→credits), folk block-print (credits→about), wave ribbon last (about→footer). SVG tiles live in /app/frontend/src/assets/patterns/.
 
 ## Done
 - 2026-10-07: Full one-page site built, verified desktop (1440) + mobile (390), no overflow, filters/expand/copy verified.
