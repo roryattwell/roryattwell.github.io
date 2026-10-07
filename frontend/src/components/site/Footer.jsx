@@ -1,7 +1,7 @@
 import { toast } from "sonner";
 import { ArrowUpRight, Copy } from "lucide-react";
 import Mark from "./Mark";
-import { EMAIL, IMDB, INSTAGRAM, INSTAGRAM_HANDLE, SHOWREEL_MAILTO, SPOTIFY_PLAYLIST } from "@/data/site";
+import { EMAIL, IMDB, INSTAGRAM, INSTAGRAM_HANDLE, SHOWREEL_MAILTO } from "@/data/site";
 
 export default function Footer() {
     const copyEmail = async () => {
@@ -75,16 +75,6 @@ export default function Footer() {
                             className="group inline-flex items-center gap-1.5 font-mono2 text-[11px] uppercase tracking-[0.18em] text-cream/70 transition-colors hover:text-cream"
                         >
                             IMDb
-                            <ArrowUpRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true" />
-                        </a>
-                        <a
-                            href={SPOTIFY_PLAYLIST}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            data-testid="footer-spotify"
-                            className="group inline-flex items-center gap-1.5 font-mono2 text-[11px] uppercase tracking-[0.18em] text-cream/70 transition-colors hover:text-cream"
-                        >
-                            Spotify
                             <ArrowUpRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true" />
                         </a>
                     </div>

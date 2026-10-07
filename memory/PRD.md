@@ -39,6 +39,7 @@ All credits/roles/descriptions from roryattwell.com verbatim; SXSW London credit
 - 2026-10-07 (later): User tweaks — Brattwell Recordings moved to credit #03; Body of Water description now credits BBC Films / BFI (Lucy Brydon name removed from this credit at user request); About archive image ("So Young sessions") removed at user request — roster column re-centred.
 - 2026-10-07 (later): Section-gap fix (user-reported with annotated screenshot) — section paddings reduced (py-24/36 → py-12/16, hero/footer trimmed) AND brand pattern strips placed at all four section joins, per user's "show me both" request.
 - 2026-10-07 (later): Pattern family per user request — each join has its own motif in the rose/cobalt palette; final order: eq-bars (hero→statement), wave ribbon light (statement→credits), folk block-print bold (credits→about), shell swirls bold last (about→footer). SVG tiles live in /app/frontend/src/assets/patterns/. Bold set = swirls + ethnic (32px, 0.62 opacity, chunky strokes); bars + waves stay light.
+- 2026-10-07 (later): Hero overline trimmed to "Producer · Composer · Sound" (London removed); footer Spotify link removed — playlist stays linked only via the About "On the stereo" card.
 
 ## Done
 - 2026-10-07: Full one-page site built, verified desktop (1440) + mobile (390), no overflow, filters/expand/copy verified.

@@ -55,7 +55,7 @@ export default function Hero() {
                                 />
                             ))}
                         </span>
-                        Producer · Composer · Sound — London
+                        Producer · Composer · Sound
                     </motion.p>
 
                     <h1 className="font-display text-[clamp(4rem,13vw,11.5rem)] leading-[0.92] tracking-[-0.02em]">
