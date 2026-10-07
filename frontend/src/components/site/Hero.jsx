@@ -31,25 +31,25 @@ export default function Hero() {
         <section
             id="top"
             ref={ref}
-            className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 pb-12 pt-24 md:px-10 md:pt-28"
+            className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 pb-12 md:px-10"
         >
             <div className="relative z-10 mx-auto w-full max-w-[1500px]">
-                {/* cobalt band — name, intro & photo */}
-                <div className="relative -mx-6 bg-[#2150dc] px-6 py-10 md:-mx-10 md:px-10 md:py-14">
+                {/* mint band — runs from the very top (behind nav), name, intro & photo */}
+                <div className="relative -mx-6 -mt-24 bg-[#D7EAE0] px-6 pb-10 pt-24 md:-mx-10 md:-mt-28 md:px-10 md:pb-14 md:pt-28">
                     <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-8">
                         <div className="order-2 lg:order-1 lg:col-span-7">
                             <motion.p
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 transition={{ duration: 0.8, delay: 0.15 }}
-                                className="mb-6 flex items-center gap-3 font-mono2 text-[11px] uppercase tracking-[0.28em] text-[#F8A9C9] md:text-xs"
+                                className="mb-6 flex items-center gap-3 font-mono2 text-[11px] uppercase tracking-[0.28em] text-terra md:text-xs"
                                 data-testid="hero-overline"
                             >
                                 <span className="flex h-3 items-end gap-[3px]" aria-hidden="true">
                                     {[0, 1, 2, 3].map((i) => (
                                         <span
                                             key={i}
-                                            className={`eq-bar w-[3px] rounded-sm ${i === 1 ? "bg-cream" : "bg-[#F8A9C9]"}`}
+                                            className={`eq-bar w-[3px] rounded-sm ${i === 1 ? "bg-forest" : "bg-terra"}`}
                                             style={{
                                                 height: "12px",
                                                 animationDelay: `${i * 0.17}s`,
@@ -60,9 +60,9 @@ export default function Hero() {
                                 Producer · Composer · Sound
                             </motion.p>
 
-                            <h1 className="font-display text-[clamp(4rem,13vw,11.5rem)] leading-[0.92] tracking-[-0.02em] text-cream">
+                            <h1 className="font-display text-[clamp(4rem,13vw,11.5rem)] leading-[0.92] tracking-[-0.02em] text-ink">
                                 <MaskedLine delay={0.25}>Rory</MaskedLine>
-                                <MaskedLine delay={0.38} className="pr-[0.08em] font-light italic text-[#F8A9C9] sm:ml-12 md:ml-20 lg:ml-28">
+                                <MaskedLine delay={0.38} className="pr-[0.08em] font-light italic text-forest sm:ml-12 md:ml-20 lg:ml-28">
                                     Attwell
                                 </MaskedLine>
                             </h1>
@@ -71,7 +71,7 @@ export default function Hero() {
                                 initial={{ opacity: 0, y: 16 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.9, ease: EASE, delay: 0.75 }}
-                                className="mt-7 whitespace-normal text-base leading-relaxed text-cream/80 md:whitespace-nowrap md:text-[17px] xl:text-lg"
+                                className="mt-7 whitespace-normal text-base leading-relaxed text-ink-muted md:whitespace-nowrap md:text-[17px] xl:text-lg"
                             >
                                 Music production &amp; composition for film,
                                 television and records.
@@ -87,7 +87,7 @@ export default function Hero() {
                         >
                             <motion.div
                                 style={{ y: imgY }}
-                                className="relative aspect-[3/2] w-full border border-cream/25 bg-cream/10 p-2"
+                                className="relative aspect-[3/2] w-full border border-ink/15 bg-paper p-2"
                             >
                                 <img
                                     src={IMAGES.hero}
