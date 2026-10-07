@@ -145,12 +145,14 @@ export default function Credits() {
                                                     <p className="max-w-xl text-sm leading-relaxed text-ink-muted md:text-base">
                                                         {c.desc}
                                                     </p>
-                                                    <img
-                                                        src={c.img}
-                                                        alt={c.title}
-                                                        loading="lazy"
-                                                        className="h-36 w-full max-w-xs border border-line object-cover md:h-40"
-                                                    />
+                                                    {c.img && (
+                                                        <img
+                                                            src={c.img}
+                                                            alt={c.title}
+                                                            loading="lazy"
+                                                            className="h-36 w-full max-w-xs border border-line object-cover md:h-40"
+                                                        />
+                                                    )}
                                                 </div>
                                             </motion.div>
                                         )}

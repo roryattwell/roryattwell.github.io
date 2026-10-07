@@ -31,12 +31,12 @@ export default function Statement() {
                     className="max-w-5xl font-display text-3xl leading-[1.18] tracking-tight md:text-5xl md:leading-[1.15]"
                     data-testid="statement-heading"
                 >
-                    Scoring pictures, shaping sound and cutting records aboard{" "}
+                    Producing records,{" "}
                     <em className="font-light italic text-terra">
-                        Lightship 95
+                        scoring pictures
                     </em>{" "}
-                    — a studio on a 1930s lightship moored on the Thames at
-                    Trinity Buoy Wharf, London E14.
+                    and shaping sound — music production and composition for
+                    film, television and artists.
                 </motion.h2>
 
                 <div className="mt-16 grid gap-px overflow-hidden border border-line bg-line md:mt-24 md:grid-cols-3">

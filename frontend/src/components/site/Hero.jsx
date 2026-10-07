@@ -127,12 +127,12 @@ export default function Hero() {
                     >
                         <img
                             src={IMAGES.hero}
-                            alt="Analog mixing console at Lightship 95"
+                            alt="Rory Attwell in the studio"
                             className="h-full w-full object-cover"
                             loading="eager"
                         />
                         <div className="absolute bottom-5 left-5 bg-dark px-3.5 py-2 font-mono2 text-[9px] uppercase tracking-[0.2em] text-cream md:text-[10px]">
-                            Fig. 01 — Lightship 95, London E14
+                            Fig. 01 — In the studio
                         </div>
                     </motion.div>
                 </motion.div>

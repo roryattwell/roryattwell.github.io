@@ -4,7 +4,6 @@ import { SHOWREEL_MAILTO } from "@/data/site";
 
 const LINKS = [
     { label: "Work", target: "#work", id: "work" },
-    { label: "Studio", target: "#studio", id: "studio" },
     { label: "About", target: "#about", id: "about" },
     { label: "Contact", target: "#contact", id: "contact" },
 ];

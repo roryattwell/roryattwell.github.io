@@ -29,6 +29,10 @@
 ## Content Integrity
 All credits/roles/descriptions from roryattwell.com verbatim; SXSW London credit from user. Years deliberately omitted except user-stated / well-established ('Old Volcanoes', 2011). External links limited to Instagram + IMDb (real profiles).
 
+## Revisions (user feedback, 2026-10-07)
+- Removed all Lightship95 emphasis per user ("I don't work there anymore"): deleted dedicated Studio section + nav link, rewrote statement/marquee/footer copy, trimmed credit descriptions. Credit titles remain factual.
+- Replaced all stock studio-equipment photos with the real project stills from roryattwell.com (downloaded to /app/frontend/public/images/, served locally). "The Skin Will Tell You" has no still yet — row expands without image; awaiting user asset.
+
 ## Done
 - 2026-10-07: Full one-page site built, verified desktop (1440) + mobile (390), no overflow, filters/expand/copy verified.
 

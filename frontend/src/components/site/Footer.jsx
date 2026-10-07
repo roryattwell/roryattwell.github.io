@@ -84,7 +84,7 @@ export default function Footer() {
                     <span>© {new Date().getFullYear()} Rory Attwell</span>
                     <span className="flex items-center gap-2">
                         <Mark className="h-4 w-4" />
-                        Lightship 95, London E14
+                        London, UK
                     </span>
                     <span>Producer · Composer · Sound</span>
                 </div>

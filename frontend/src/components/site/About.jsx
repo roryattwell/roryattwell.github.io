@@ -38,9 +38,9 @@ export default function About() {
                         transition={{ duration: 0.9, ease: EASE, delay: 0.1 }}
                         className="font-display text-4xl leading-[1.05] tracking-tight md:text-5xl"
                     >
-                        Before &amp; beyond{" "}
+                        Before &amp; behind{" "}
                         <em className="font-light italic text-terra">
-                            the ship
+                            the desk
                         </em>
                     </motion.h2>
                     <motion.div
@@ -49,8 +49,8 @@ export default function About() {
                         className="mt-10 hidden max-w-[240px] md:block"
                     >
                         <img
-                            src={IMAGES.micBw}
-                            alt="Studio microphone"
+                            src={IMAGES.about}
+                            alt="Archive — live session"
                             loading="lazy"
                             className="aspect-[3/4] w-full border border-line object-cover grayscale"
                         />

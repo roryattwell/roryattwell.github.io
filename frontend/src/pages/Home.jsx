@@ -3,7 +3,6 @@ import Hero from "@/components/site/Hero";
 import Marquee from "@/components/site/Marquee";
 import Statement from "@/components/site/Statement";
 import Credits from "@/components/site/Credits";
-import Studio from "@/components/site/Studio";
 import About from "@/components/site/About";
 import Footer from "@/components/site/Footer";
 
@@ -17,7 +16,6 @@ export default function Home() {
                 <Marquee />
                 <Statement />
                 <Credits />
-                <Studio />
                 <About />
             </main>
             <Footer />
