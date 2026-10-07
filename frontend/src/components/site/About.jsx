@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, AudioLines } from "lucide-react";
-import { IMAGES, SPOTIFY_PLAYLIST, SPOTIFY_PLAYLIST_TITLE } from "@/data/site";
+import { SPOTIFY_PLAYLIST, SPOTIFY_PLAYLIST_TITLE } from "@/data/site";
 
 const EASE = [0.16, 1, 0.3, 1];
 const rise = {
@@ -82,28 +82,11 @@ export default function About() {
                     </motion.a>
                 </div>
 
-                <div className="md:col-span-8">
-                    <motion.div
-                        {...rise}
-                        transition={{ duration: 0.9, ease: EASE, delay: 0.15 }}
-                        className="relative overflow-hidden border border-line"
-                        data-testid="about-image"
-                    >
-                        <img
-                            src={IMAGES.about}
-                            alt="Archive — So Young sessions"
-                            loading="lazy"
-                            className="aspect-[10/7] w-full object-cover grayscale"
-                        />
-                        <div className="absolute bottom-4 left-4 bg-dark px-3 py-1.5 font-mono2 text-[9px] uppercase tracking-[0.2em] text-cream md:text-[10px]">
-                            Archive — So Young sessions
-                        </div>
-                    </motion.div>
-
+                <div className="flex flex-col justify-center md:col-span-7">
                     <motion.p
                         {...rise}
                         transition={{ duration: 0.8, ease: EASE, delay: 0.2 }}
-                        className="mt-12 font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:text-[11px]"
+                        className="font-mono2 text-[10px] uppercase tracking-[0.22em] text-ink-muted md:text-[11px]"
                     >
                         Production, engineering &amp; mixing credits include
                     </motion.p>

@@ -38,8 +38,16 @@ export const CREDITS = [
         title: "Body of Water",
         role: "Original Film Score",
         category: "Film & TV",
-        desc: "Original score composed for the feature film.",
+        desc: "Original score for the BBC Films / BFI feature film directed by Lucy Brydon.",
         img: creditImg("body-of-water"),
+    },
+    {
+        id: "brattwell-recordings",
+        title: "Brattwell Recordings",
+        role: "Production",
+        category: "Record Production",
+        desc: "Production of 100s of albums, EPs & singles.",
+        img: creditImg("brattwell"),
     },
     {
         id: "how-to-talk-to-girls",
@@ -121,14 +129,6 @@ export const CREDITS = [
         category: "Live & Broadcast",
         desc: "Senior live broadcast engineer for Red Bull's music TV show.",
         img: creditImg("redbull"),
-    },
-    {
-        id: "brattwell-recordings",
-        title: "Brattwell Recordings",
-        role: "Production",
-        category: "Record Production",
-        desc: "Production of 100s of albums, EPs & singles.",
-        img: creditImg("brattwell"),
     },
 ];
 
