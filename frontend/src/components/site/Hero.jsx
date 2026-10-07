@@ -33,7 +33,7 @@ export default function Hero() {
             ref={ref}
             className="relative flex min-h-screen flex-col justify-center overflow-hidden px-6 pb-10 pt-28 md:px-10 md:pt-32"
         >
-            <div className="mx-auto grid w-full max-w-[1500px] items-start gap-12 lg:grid-cols-12 lg:gap-8">
+            <div className="mx-auto grid w-full max-w-[1500px] items-start gap-12 lg:grid-cols-12 lg:gap-4">
                 {/* type block */}
                 <div className="order-2 lg:order-1 lg:col-span-7">
                     <motion.p
@@ -118,7 +118,7 @@ export default function Hero() {
                     initial={{ clipPath: "inset(0 0 100% 0)", opacity: 0.4 }}
                     animate={{ clipPath: "inset(0 0 0% 0)", opacity: 1 }}
                     transition={{ duration: 1.3, ease: EASE, delay: 0.5 }}
-                    className="relative order-1 lg:order-2 lg:col-span-5"
+                    className="relative order-1 lg:order-2 lg:col-span-5 lg:-ml-8"
                     data-testid="hero-image-card"
                 >
                     <motion.div
