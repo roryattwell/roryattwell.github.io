@@ -85,6 +85,14 @@ export const CREDITS = [
         badge: "UK #11 Debut LP — NME Track of the Year",
         img: creditImg("palma-violets"),
     },
+     {
+        id: "bobby-kasanga-nike",
+        title: "Bobby Kasanga × Nike",
+        role: "Documentary — Full Sound Mix & VO Recording",
+        category: "Sound & Mix",
+        desc: "Full sound mix & VO recording for the documentary telling the story of Bobby Kasanga & Hackney Wick FC.",
+        img: creditImg("nike-bobby"),
+    },
     {
         id: "guinness-artists-journey",
         title: "Guinness — 'The Artist's Journey'",
