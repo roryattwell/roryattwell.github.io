@@ -65,7 +65,7 @@ export const CREDITS = [
         title: "How to Talk to Girls at Parties",
         role: "Production of the Movie's OST",
         category: "Film & TV",
-        desc: "Production of the soundtrack for the feature film.",
+        desc: "A24 Feature Film OST dir. John Cameron Mitchell, starring Elle Fanning and Nicole Kidman.",
         img: creditImg("how-to-talk"),
     },
     {
