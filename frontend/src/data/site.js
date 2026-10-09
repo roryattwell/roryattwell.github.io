@@ -65,7 +65,7 @@ export const CREDITS = [
         title: "How to Talk to Girls at Parties",
         role: "Production of the Movie's OST",
         category: "Film & TV",
-        desc: "A24 Feature Film OST, starring Elle Fanning and Nicole Kidman. One last test",
+        desc: "A24 Feature Film OST, starring Elle Fanning and Nicole Kidman.",
         img: creditImg("how-to-talk"),
     },
     {
@@ -73,7 +73,7 @@ export const CREDITS = [
         title: "The End of the F***ing World",
         role: "Music Composition",
         category: "Film & TV",
-        desc: "Music composition for the original Channel 4 pilot.",
+        desc: "Music composition for the original Channel 4 pilot - including main theme.",
         img: creditImg("teotfw"),
     },
     {
