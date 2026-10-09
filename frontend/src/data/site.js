@@ -61,8 +61,8 @@ export const CREDITS = [
         img: creditImg("brattwell"),
     },
     {
-        id: "how-to-talk-to-girls",
-        title: "yada yada yada who cares",
+        id: "does this make any difference",
+        title: "How to Talk to Girls at Parties",
         role: "Production of the Movie's OST",
         category: "Film & TV",
         desc: "A24 Feature Film OST, starring Elle Fanning and Nicole Kidman.",
