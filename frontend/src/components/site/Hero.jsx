@@ -109,7 +109,7 @@ export default function Hero() {
                         data-testid="hero-latest"
                     >
                         Latest — “The Skin Will Tell You” · Official Selection,
-                        SXSW London 2026 tes test
+                        SXSW London 2026
                     </motion.p>
                 </div>
 
